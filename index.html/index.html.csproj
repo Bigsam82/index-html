@@ -94,10 +94,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\images\1pic.jpg" />
+    <Content Include="content\images\2pic %282%29.jpg" />
+    <Content Include="content\images\2pic.jpg" />
+    <Content Include="content\images\314-348x348.jpg" />
+    <Content Include="content\images\3b-348x348.jpg" />
+    <Content Include="content\images\3pic %282%29.jpg" />
+    <Content Include="content\images\3pic.jpg" />
+    <Content Include="content\images\42-348x348.jpg" />
+    <Content Include="content\images\4pic %282%29.jpg" />
+    <Content Include="content\images\4pic.jpg" />
+    <Content Include="content\images\5pic %282%29.jpg" />
+    <Content Include="content\images\box_partners.png" />
+    <Content Include="content\images\hospital-bed.png" />
+    <Content Include="content\images\tuscany-villas-sant-anna.jpg" />
+    <Content Include="content\images\Versilia.jpg" />
+    <Content Include="content\images\Villa-Rucellai-Toscani-2750-2-348x348.jpg" />
+    <Content Include="content\images\Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
+    <Content Include="content\images\Villa-Vanna-231-348x348.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="window1.css" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,6 +131,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

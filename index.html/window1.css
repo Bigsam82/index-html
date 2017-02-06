@@ -1,0 +1,39 @@
+﻿body {
+    background-color: aqua;
+    font-family:Aharoni;
+    font-size: 0px;
+}
+h1{
+    font-size: 20px;
+    color: black;
+    text-align: match-parent;
+}
+
+ nav#myNavbar.collapse navbar-collapse{
+       background-color:blue;
+            color: grey;
+            padding: 12px;  
+     }
+   footer {
+            background-color:blue;
+            color: grey;
+            padding: 12px;
+        }
+    
+p {
+    font-family:'Arabic Typesetting';
+    font-size:20px;
+}
+jumbotron {
+margin-bottom:100px;
+padding-top:0px;
+padding-bottom: 0px;
+}
+div {
+    width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    align-content: center;
+}
+
+
